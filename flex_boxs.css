@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding: 0;
+  list-style:none;
+}
+
+.box1{
+  margin: auto;
+  display: flex;
+  width: 650px;
+  height: 250px;
+  justify-content: space-around;
+  border: 1px solid;
+  align-items: center;
+  background-color: rgb(236, 236, 236);
+}
+
+
+
+
+.box1 .item{
+
+  background-color: rgb(115, 171, 228);
+  /* width: 100px; */
+  height: 100px;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.center1{
+  flex-grow: 2;
+  background-color: rgb(115, 171, 228);
+  height: 100px;
+}
+
+.same{
+  flex-grow: 1;
+}
+
+.box1 .item + .item {
+  /* margin: 2%; */
+}
+
+.box2{
+  margin: 20px auto;
+  display: flex;
+  width: 650px;
+  height: 250px;
+  /* justify-content: space-around; */
+  border: 1px solid;
+  align-items: center;
+  background-color: rgb(236, 236, 236);
+}
+
+.box2 .item{
+
+  background-color: rgb(228, 224, 115);
+  height: 100px;
+  border-radius: 5px;
+  margin: 2%;
+  /* margin-left: 2%; */
+}
+
+.center {
+  /* width: 300px; */
+
+  flex-grow: 4; /* Set the middle element to grow and stretch */
+}
+
+.side {
+  /* width: 100px; */
+
+  flex-grow: 1; /* Set the middle element to grow and stretch */
+}
+
+.box2 .item + .item {
+  /* margin: 2%; */
+}
+
+.box3{
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 400px;
+  justify-content: space-around;
+  border: 1px solid;
+
+  background-color: rgb(236, 236, 236);
+}
+
+.box3 .sec{
+
+  /* background-color: rgb(246, 164, 174); */
+  height: 100px;
+  border-radius: 1px ;
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2% 0;
+  /* margin-left: 2%; */
+}
+.top{
+  background-color: rgb(255, 156, 24);
+  height: 100px;
+  border-radius: 5px;
+  margin: 0 2%;
+}
+
+.one {
+  /* width: 100px; */
+
+  flex-grow: 2; /* Set the middle element to grow and stretch */
+}
+.two {
+  /* width: 100px; */
+
+  flex-grow: 2; /* Set the middle element to grow and stretch */
+}
+
+.three{
+  margin: 0 2%;
+  background-color: rgb(255, 156, 24);
+  border-radius: 5px;
+  height: 100px;
+  flex-grow: 1;
+}
